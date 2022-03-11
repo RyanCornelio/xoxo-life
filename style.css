@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Shizuru", cursive;
+  font-family: "Smooch Sans", sans-serif;
+  font-size: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 1%, 0.733);
+  z-index: 1;
+}
+.nav {
+  padding: 10px 10vw;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.textbanner {
+  color: white;
+  font-family: "Shizuru", cursive;
+  font-family: "Smooch Sans", sans-serif;
+  margin-top: -10;
+}
+
+.brand-logo {
+  height: 100px;
+  width: 10%;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  width: 500px;
+  display: flex;
+  font-size: 30px;
+}
+
+.search-box {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid #d1d1d1;
+  text-transform: capitalize;
+  background: none;
+  color: #ffffff;
+  outline: none;
+}
+
+.search-btn {
+  width: 30%;
+  height: 20%;
+  padding: 0px 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #f52032;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 26px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.search-box::placeholder {
+  color: #fffbfb;
+}
+
+.nav-items a {
+  margin-left: 20px;
+}
+
+.nav-items a img {
+  width: 30px;
+}
+
+.links-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  padding: 10px 10vw;
+  justify-content: center;
+  list-style: none;
+  border-top: 1px solid #ffffff;
+  color: #fff;
+  font-family: "Shizuru", cursive;
+  font-family: "Smooch Sans", sans-serif;
+  background-color: #f52032;
+}
+
+.link {
+  text-transform: capitalize;
+  padding: 0 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
