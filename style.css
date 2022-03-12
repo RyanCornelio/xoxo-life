@@ -6,7 +6,12 @@
   font-family: "Orbitron", sans-serif;
   font-family: "Shizuru", cursive;
   font-family: "Smooch Sans", sans-serif;
-  font-size: 50px;
+  font-size: 30px;
+}
+.textbanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .navbar {
@@ -120,10 +125,15 @@
   opacity: 0.5;
 }
 
-footer {
+.footer {
+  /* display: flex;
+  flex-direction: column; */
+  /*   margin: 0; */
+  justify-content: center;
+  background-color: rgb(17, 159, 253);
+}
+
+.col-md-3 mb-md-0 mb-3 {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  justify-content: center;
-  background-color: rgb(255, 255, 255);
 }
